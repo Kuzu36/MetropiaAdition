@@ -688,6 +688,94 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "flowerbed"
+    },
+    {
+      "name": "WoodMug",
+      "type": "item",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wood_mug"
+    },
+    {
+      "name": "WoodMugFull",
+      "type": "item",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wood_mug_full"
+    },
+    {
+      "name": "GlassMug",
+      "type": "item",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glass_mug"
+    },
+    {
+      "name": "GlassMugFull",
+      "type": "item",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glass_mug_full"
+    },
+    {
+      "name": "GoldMug",
+      "type": "item",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_mug"
+    },
+    {
+      "name": "GoldMugFull",
+      "type": "item",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_mug_full"
+    },
+    {
+      "name": "RichMug",
+      "type": "item",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rich_mug"
+    },
+    {
+      "name": "RichMugFull",
+      "type": "item",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rich_mug_full"
+    },
+    {
+      "name": "GlassBottle",
+      "type": "item",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glass_bottle"
+    },
+    {
+      "name": "RedJuiceBottled",
+      "type": "item",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_juice_bottled"
+    },
+    {
+      "name": "YellowJuiceBottled",
+      "type": "item",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yellow_juice_bottled"
     }
   ],
   "variable_elements": [],
@@ -700,6 +788,9 @@
       "item.metropiaaddition.thunder_magic_gem": "Gemme de foudre",
       "item.metropiaaddition.ice_magic_gem": "Gemme de glace",
       "block.metropiaaddition.thunder_aura_flower": "Fleur d\u0027aura de foudre",
+      "item.metropiaaddition.glass_bottle": "Bouteille en verre",
+      "item.metropiaaddition.glass_mug": "Chope en verre",
+      "item.metropiaaddition.glass_mug_full": "Chope en verre pleine",
       "item.metropiaaddition.neutral_magic_gem": "Gemme neutre",
       "item.metropiaaddition.foreign_bronze_coin": "Pièce de bronze étrangère",
       "item.metropiaaddition.black_steel_saber": "Épée en or sombre",
@@ -713,15 +804,19 @@
       "itemGroup.tabmetropia_economy": "Metropia Economy",
       "item.metropiaaddition.deep_gold_spear": "Lance en or sombre",
       "item.metropiaaddition.fabric": "Tissu",
+      "item.metropiaaddition.wood_mug_full": "Chope en bois pleine",
       "item.metropiaaddition.light_magic_powder": "Poudre élémentaire de lumière",
       "item.metropiaaddition.katana": "Sabre long courbé",
+      "item.metropiaaddition.rich_mug_full": "Chope opulente pleine",
       "block.metropiaaddition.strange_mushroom": "Champignon étrange",
       "item.metropiaaddition.tribal_spear": "Lance tribale",
       "block.metropiaaddition.ice_aura_flower": "Fleur d\u0027aura de glace",
       "item.metropiaaddition.magic_artefact_1": "Pierre magique inconnue",
       "item.metropiaaddition.magic_artefact_2": "Artefact étrange",
+      "item.metropiaaddition.wood_mug": "Chope en bois",
       "block.metropiaaddition.flowerbed": "Parterre de fleur",
       "block.metropiaaddition.amethyst_cluster_mid": "Cristal moyen d\u0027améthyste",
+      "item.metropiaaddition.gold_mug": "Chope en or",
       "item.metropiaaddition.neutral_magic_fragment": "Fragment de gemme neutre",
       "item.metropiaaddition.earth_magic_gem": "Gemme de terre",
       "item.metropiaaddition.tribal_coin": "Jeton tribal",
@@ -741,9 +836,13 @@
       "itemGroup.tabmetropia_plant": "Metropia Plant",
       "block.metropiaaddition.amethyst_bloc": "Bloc d\u0027améthyste ",
       "item.metropiaaddition.gravity_gem": "Pierre de gravité",
+      "item.metropiaaddition.red_juice_bottled": "Jus rouge embouteillé",
+      "item.metropiaaddition.gold_mug_full": "Chope en or pleine",
       "item.metropiaaddition.little_leather": "Petite peau",
       "item.metropiaaddition.silver_coin": "Pièce d\u0027argent",
       "item.metropiaaddition.gold_coin": "Pièce d\u0027or",
+      "item.metropiaaddition.rich_mug": "Chope opulente",
+      "item.metropiaaddition.yellow_juice_bottled": "Jus jaune embouteillé",
       "item.metropiaaddition.magic_powder": "Poudre élémentaire neutre",
       "itemGroup.tabmetropia_weapon": "Metropia Weapon",
       "item.metropiaaddition.gold_spear": "Lance en or",
