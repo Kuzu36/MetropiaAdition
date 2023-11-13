@@ -1,0 +1,38 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "metropiaaddition:items/cccode_24792"
+  },
+	"display": {
+        "ground": {
+            "rotation": [ 0, 0, 0 ],
+            "translation": [ 0, 3, 0],
+            "scale":[ 1, 1, 1 ]
+        },
+        "fixed": {
+            "rotation": [ 0, 0, 0 ],
+            "translation": [ 0, 0, 0],
+            "scale":[ 1, 1, 1 ]
+        },
+        "firstperson_righthand": {
+            "rotation": [ 0, 90, 40 ],
+            "translation": [ 0, 15, 2 ],
+            "scale": [ 2.0, 2.0, 1.0 ]
+        },
+        "firstperson_lefthand": {
+            "rotation": [ 90, 270, 35 ],
+            "translation": [ 0, 15, 2 ],
+            "scale": [ 2.0, 2.0, 1.0 ]
+        },
+		"thirdperson_righthand": {
+            "rotation": [ 0, 90, 40 ],
+            "translation": [ 0, 15, 2 ],
+            "scale": [ 2.0, 2.0, 1.0 ]
+        },
+		"thirdperson_lefthand": {
+            "rotation": [ 180, 270, 90 ],
+            "translation": [ 0, 0, 2 ],
+            "scale": [ 2.0, 2.0, 1.0 ]
+        }
+    }
+}

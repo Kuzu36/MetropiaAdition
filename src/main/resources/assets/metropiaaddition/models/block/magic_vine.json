@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "metropiaaddition:blocks/magicvineanimated",
+    "particle": "metropiaaddition:blocks/magicvineanimated"
+  }
+}

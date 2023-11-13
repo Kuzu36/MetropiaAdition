@@ -1,0 +1,793 @@
+{
+  "mod_elements": [
+    {
+      "name": "SabreAcierNoir",
+      "type": "tool",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_steel_saber"
+    },
+    {
+      "name": "MetropiaWeapon",
+      "type": "tab",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "metropia_weapon"
+    },
+    {
+      "name": "BigAzalea",
+      "type": "plant",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "big_azalea"
+    },
+    {
+      "name": "MetropiaPlant",
+      "type": "tab",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "metropia_plant"
+    },
+    {
+      "name": "AuraFlower",
+      "type": "plant",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aura_flower"
+    },
+    {
+      "name": "FireAuraFlowerQuandLeMobjoueurEntreEnCollisionAvecLaPlante",
+      "type": "procedure",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_aura_flower_quand_le_mobjoueur_entre_en_collision_avec_la_plante",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FireAuraFlower",
+      "type": "plant",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_aura_flower"
+    },
+    {
+      "name": "LittleAzalea",
+      "type": "plant",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "little_azalea"
+    },
+    {
+      "name": "Euphoria",
+      "type": "particle",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "euphoria"
+    },
+    {
+      "name": "BigAzaleaMiseAJourDuTick",
+      "type": "procedure",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "big_azalea_mise_a_jour_du_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "StrangeEgg",
+      "type": "block",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "strange_egg"
+    },
+    {
+      "name": "EuphoriaEffect",
+      "type": "potioneffect",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "euphoria_effect"
+    },
+    {
+      "name": "EuphoriaOverlay",
+      "type": "overlay",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "euphoria_overlay"
+    },
+    {
+      "name": "EuphoriaOverlayAfficherLoverlayEnJeu",
+      "type": "procedure",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "euphoria_overlay_afficher_loverlay_en_jeu",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AmethystBloc",
+      "type": "block",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_bloc"
+    },
+    {
+      "name": "AmethystClusterLittle",
+      "type": "block",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_cluster_little"
+    },
+    {
+      "name": "AmethystClusterMid",
+      "type": "block",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_cluster_mid"
+    },
+    {
+      "name": "CopperCoin",
+      "type": "item",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_coin"
+    },
+    {
+      "name": "SilverCoin",
+      "type": "item",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_coin"
+    },
+    {
+      "name": "GoldCoin",
+      "type": "item",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_coin"
+    },
+    {
+      "name": "PlatiniumCoin",
+      "type": "item",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platinium_coin"
+    },
+    {
+      "name": "DeepGoldCoin",
+      "type": "item",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deep_gold_coin"
+    },
+    {
+      "name": "MetropiaEconomy",
+      "type": "tab",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "metropia_economy"
+    },
+    {
+      "name": "MetropiaDepth",
+      "type": "tab",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "metropia_depth"
+    },
+    {
+      "name": "EuphoriaEffectTickActifSurEffet",
+      "type": "procedure",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "euphoria_effect_tick_actif_sur_effet",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FireMagicPowder",
+      "type": "item",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_magic_powder"
+    },
+    {
+      "name": "MagicPowder",
+      "type": "item",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_powder"
+    },
+    {
+      "name": "MetropiaMagic",
+      "type": "tab",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "metropia_magic"
+    },
+    {
+      "name": "LightMagicPowder",
+      "type": "item",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_magic_powder"
+    },
+    {
+      "name": "DepthMagicPowder",
+      "type": "item",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "depth_magic_powder"
+    },
+    {
+      "name": "NeutralMagicFragment",
+      "type": "item",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neutral_magic_fragment"
+    },
+    {
+      "name": "NeutralMagicGem",
+      "type": "item",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neutral_magic_gem"
+    },
+    {
+      "name": "FireMagicGem",
+      "type": "item",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_magic_gem"
+    },
+    {
+      "name": "DepthMagicGem",
+      "type": "item",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "depth_magic_gem"
+    },
+    {
+      "name": "LightMagicGem",
+      "type": "item",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_magic_gem"
+    },
+    {
+      "name": "IceMagicGem",
+      "type": "item",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ice_magic_gem"
+    },
+    {
+      "name": "EarthMagicGem",
+      "type": "item",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "earth_magic_gem"
+    },
+    {
+      "name": "ThunderMagicGem",
+      "type": "item",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thunder_magic_gem"
+    },
+    {
+      "name": "NecromanticMagicGem",
+      "type": "item",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "necromantic_magic_gem"
+    },
+    {
+      "name": "MagicVine",
+      "type": "block",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_vine"
+    },
+    {
+      "name": "RejetedDagger",
+      "type": "tool",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rejeted_dagger"
+    },
+    {
+      "name": "CreatureTooth",
+      "type": "item",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "creature_tooth"
+    },
+    {
+      "name": "MagicVine2",
+      "type": "block",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_vine_2"
+    },
+    {
+      "name": "MagicArtefact1",
+      "type": "item",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_artefact_1"
+    },
+    {
+      "name": "DepthSwordArtefact",
+      "type": "tool",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "depth_sword_artefact"
+    },
+    {
+      "name": "MagicArtefact2",
+      "type": "item",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_artefact_2"
+    },
+    {
+      "name": "IceMagicPowder",
+      "type": "item",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ice_magic_powder"
+    },
+    {
+      "name": "GoldMask",
+      "type": "item",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_mask"
+    },
+    {
+      "name": "LittleLeather",
+      "type": "item",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "little_leather"
+    },
+    {
+      "name": "MetropiaHandcraft",
+      "type": "tab",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "metropia_handcraft"
+    },
+    {
+      "name": "BigLeather",
+      "type": "item",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "big_leather"
+    },
+    {
+      "name": "LittleFur",
+      "type": "item",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "little_fur"
+    },
+    {
+      "name": "RejetedLog",
+      "type": "block",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rejeted_log"
+    },
+    {
+      "name": "RejetedMushroom",
+      "type": "block",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rejeted_mushroom"
+    },
+    {
+      "name": "DepthBookArtefact",
+      "type": "item",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "depth_book_artefact"
+    },
+    {
+      "name": "IceAuraFlower",
+      "type": "plant",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ice_aura_flower"
+    },
+    {
+      "name": "AncientParchment",
+      "type": "item",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancient_parchment"
+    },
+    {
+      "name": "ThunderAuraFlower",
+      "type": "plant",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thunder_aura_flower"
+    },
+    {
+      "name": "GravityGem",
+      "type": "item",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gravity_gem"
+    },
+    {
+      "name": "TribalSword",
+      "type": "tool",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tribal_sword"
+    },
+    {
+      "name": "GuandaoSpear",
+      "type": "tool",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "guandao_spear"
+    },
+    {
+      "name": "GuandaoSpearArtefact",
+      "type": "tool",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "guandao_spear_artefact"
+    },
+    {
+      "name": "BronzeSpear",
+      "type": "tool",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bronze_spear"
+    },
+    {
+      "name": "GoldSpear",
+      "type": "tool",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_spear"
+    },
+    {
+      "name": "DeepGoldSpear",
+      "type": "tool",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deep_gold_spear"
+    },
+    {
+      "name": "TribalSpear",
+      "type": "tool",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tribal_spear"
+    },
+    {
+      "name": "Katana",
+      "type": "tool",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "katana"
+    },
+    {
+      "name": "ForeignBronzeCoin",
+      "type": "item",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "foreign_bronze_coin"
+    },
+    {
+      "name": "ForeignSilverCoin",
+      "type": "item",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "foreign_silver_coin"
+    },
+    {
+      "name": "ForeignGoldCoin",
+      "type": "item",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "foreign_gold_coin"
+    },
+    {
+      "name": "TribalCoin",
+      "type": "item",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tribal_coin"
+    },
+    {
+      "name": "TribalCoin2",
+      "type": "item",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tribal_coin_2"
+    },
+    {
+      "name": "CookingKnife",
+      "type": "tool",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cooking_knife"
+    },
+    {
+      "name": "Fabric",
+      "type": "item",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fabric"
+    },
+    {
+      "name": "StrangeMushroom",
+      "type": "block",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "strange_mushroom"
+    },
+    {
+      "name": "FaumortMushroom",
+      "type": "block",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "faumort_mushroom"
+    },
+    {
+      "name": "Flowerbed",
+      "type": "block",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flowerbed"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.metropiaaddition.ice_magic_powder": "Poudre élémentaire de glace",
+      "block.metropiaaddition.little_azalea": "Petite azalée",
+      "block.metropiaaddition.big_azalea": "Grande azalée",
+      "item.metropiaaddition.thunder_magic_gem": "Gemme de foudre",
+      "item.metropiaaddition.ice_magic_gem": "Gemme de glace",
+      "block.metropiaaddition.thunder_aura_flower": "Fleur d\u0027aura de foudre",
+      "item.metropiaaddition.neutral_magic_gem": "Gemme neutre",
+      "item.metropiaaddition.foreign_bronze_coin": "Pièce de bronze étrangère",
+      "item.metropiaaddition.black_steel_saber": "Épée en or sombre",
+      "item.metropiaaddition.foreign_gold_coin": "Pièce d\u0027or étrangère",
+      "item.metropiaaddition.tribal_sword": "Épée tribale",
+      "item.metropiaaddition.platinium_coin": "Pièce de platine",
+      "item.metropiaaddition.necromantic_magic_gem": "Gemme de nécromancie",
+      "block.metropiaaddition.aura_flower": "Fleur d\u0027aura",
+      "item.metropiaaddition.depth_magic_gem": "Gemme des profondeurs",
+      "item.metropiaaddition.tribal_coin_2": "Pièce tribale",
+      "itemGroup.tabmetropia_economy": "Metropia Economy",
+      "item.metropiaaddition.deep_gold_spear": "Lance en or sombre",
+      "item.metropiaaddition.fabric": "Tissu",
+      "item.metropiaaddition.light_magic_powder": "Poudre élémentaire de lumière",
+      "item.metropiaaddition.katana": "Sabre long courbé",
+      "block.metropiaaddition.strange_mushroom": "Champignon étrange",
+      "item.metropiaaddition.tribal_spear": "Lance tribale",
+      "block.metropiaaddition.ice_aura_flower": "Fleur d\u0027aura de glace",
+      "item.metropiaaddition.magic_artefact_1": "Pierre magique inconnue",
+      "item.metropiaaddition.magic_artefact_2": "Artefact étrange",
+      "block.metropiaaddition.flowerbed": "Parterre de fleur",
+      "block.metropiaaddition.amethyst_cluster_mid": "Cristal moyen d\u0027améthyste",
+      "item.metropiaaddition.neutral_magic_fragment": "Fragment de gemme neutre",
+      "item.metropiaaddition.earth_magic_gem": "Gemme de terre",
+      "item.metropiaaddition.tribal_coin": "Jeton tribal",
+      "item.metropiaaddition.deep_gold_coin": "Pièce d\u0027or sombre",
+      "item.metropiaaddition.big_leather": "Grande peau",
+      "item.metropiaaddition.foreign_silver_coin": "Pièce d\u0027argent étrangère",
+      "item.metropiaaddition.little_fur": "Petite fourrure",
+      "item.metropiaaddition.guandao_spear": "Guandao",
+      "item.metropiaaddition.cooking_knife": "Couteau de cuisine",
+      "item.metropiaaddition.depth_magic_powder": "Poudre élémentaire des profondeurs",
+      "itemGroup.tabmetropia_depth": "Metropia Depth",
+      "item.metropiaaddition.guandao_spear_artefact": "Guandao spéciale",
+      "block.metropiaaddition.faumort_mushroom": "Champignon malade",
+      "item.metropiaaddition.bronze_spear": "Lance en bronze",
+      "item.metropiaaddition.depth_book_artefact": "Livre ancien des profondeurs",
+      "effect.euphoria_effect": "Euphorie",
+      "itemGroup.tabmetropia_plant": "Metropia Plant",
+      "block.metropiaaddition.amethyst_bloc": "Bloc d\u0027améthyste ",
+      "item.metropiaaddition.gravity_gem": "Pierre de gravité",
+      "item.metropiaaddition.little_leather": "Petite peau",
+      "item.metropiaaddition.silver_coin": "Pièce d\u0027argent",
+      "item.metropiaaddition.gold_coin": "Pièce d\u0027or",
+      "item.metropiaaddition.magic_powder": "Poudre élémentaire neutre",
+      "itemGroup.tabmetropia_weapon": "Metropia Weapon",
+      "item.metropiaaddition.gold_spear": "Lance en or",
+      "block.metropiaaddition.magic_vine": "Liane brillante",
+      "block.metropiaaddition.strange_egg": "Oeuf étrange",
+      "item.metropiaaddition.depth_sword_artefact": "Artefact d\u0027épée des profondeurs",
+      "item.metropiaaddition.rejeted_dagger": "Dague rejetée",
+      "item.metropiaaddition.fire_magic_powder": "Poudre élémentaire de feu",
+      "block.metropiaaddition.rejeted_log": "Bûche corrompue",
+      "block.metropiaaddition.rejeted_mushroom": "Champignon corrompu",
+      "block.metropiaaddition.fire_aura_flower": "Fleur d\u0027aura de feu",
+      "item.metropiaaddition.ancient_parchment": "Parchemin ancien",
+      "block.metropiaaddition.amethyst_cluster_little": "Petit cristal d\u0027améthyste",
+      "item.metropiaaddition.copper_coin": "Pièce de cuivre",
+      "block.metropiaaddition.magic_vine_2": "Liane",
+      "item.metropiaaddition.creature_tooth": "Dent de créature",
+      "itemGroup.tabmetropia_magic": "Metropia Magic",
+      "item.metropiaaddition.gold_mask": "Masque d\u0027or",
+      "item.metropiaaddition.fire_magic_gem": "Gemme de feu",
+      "itemGroup.tabmetropia_handcraft": "Metropia Handcraft",
+      "item.metropiaaddition.light_magic_gem": "Gemme de lumière"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "metropiaaddition",
+    "modName": "MetropiaAddition",
+    "version": "1.0.0",
+    "author": "Marius, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.16.5",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.metropia.addition",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200120510
+}

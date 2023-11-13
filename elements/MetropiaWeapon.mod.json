@@ -1,0 +1,11 @@
+{
+  "_fv": 28,
+  "_type": "tab",
+  "definition": {
+    "name": "Metropia Weapon",
+    "icon": {
+      "value": "CUSTOM:SabreAcierNoir"
+    },
+    "showSearch": false
+  }
+}

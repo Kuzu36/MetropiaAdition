@@ -1,0 +1,27 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "metropiaaddition:items/narwhal69_29143"
+  },
+  "firstperson_righthand": {
+            "rotation": [ 0, 0, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 1.2, 1.2, 1.0 ]
+        },
+        "firstperson_lefthand": {
+            "rotation": [ 0, 0, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 1.2, 1.2, 1.0 ]
+        },
+        "thirdperson_righthand": {
+            "rotation": [ 0, 0, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 1.2, 1.2, 1.0 ]
+        },
+        "thirdperson_lefthand": {
+            "rotation": [ 0, 0, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 1.2, 1.2, 1.0 ]
+        }
+    }
+}

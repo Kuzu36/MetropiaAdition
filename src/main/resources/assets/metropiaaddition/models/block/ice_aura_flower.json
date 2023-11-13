@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "metropiaaddition:blocks/narwhal69_25861",
+    "particle": "metropiaaddition:blocks/narwhal69_25861"
+  }
+}

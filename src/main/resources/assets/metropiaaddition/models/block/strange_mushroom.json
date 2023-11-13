@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "metropiaaddition:blocks/vach_24108",
+    "particle": "metropiaaddition:blocks/vach_24108"
+  }
+}

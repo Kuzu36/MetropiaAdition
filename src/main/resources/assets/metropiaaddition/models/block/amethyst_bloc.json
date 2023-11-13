@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "metropiaaddition:blocks/narwhal69_29394",
+    "up": "metropiaaddition:blocks/narwhal69_29394",
+    "north": "metropiaaddition:blocks/narwhal69_29394",
+    "east": "metropiaaddition:blocks/narwhal69_29394",
+    "south": "metropiaaddition:blocks/narwhal69_29394",
+    "west": "metropiaaddition:blocks/narwhal69_29394",
+    "particle": "metropiaaddition:blocks/narwhal69_29394"
+  }
+}

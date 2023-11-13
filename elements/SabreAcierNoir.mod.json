@@ -1,0 +1,27 @@
+{
+  "_fv": 28,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "exiledalchemist_987",
+    "customModelName": "Normal",
+    "name": "Épée en or sombre",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:MetropiaWeapon"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 0,
+    "efficiency": 0.0,
+    "attackSpeed": 1.7,
+    "enchantability": 0,
+    "damageVsEntity": 6.5,
+    "usageCount": 2000,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

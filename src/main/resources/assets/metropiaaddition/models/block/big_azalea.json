@@ -1,0 +1,9 @@
+{
+  "parent": "metropiaaddition:custom/flower",
+  "textures": {
+    "all": "metropiaaddition:blocks/azaleatexture",
+    "particle": "metropiaaddition:blocks/azaleatexture",
+    "0": "metropiaaddition:blocks/flower_1",
+    "1": "metropiaaddition:blocks/flower_2"
+  }
+}

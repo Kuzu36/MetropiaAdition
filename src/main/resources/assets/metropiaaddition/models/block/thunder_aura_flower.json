@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "metropiaaddition:blocks/thunderauraflower",
+    "particle": "metropiaaddition:blocks/thunderauraflower"
+  }
+}

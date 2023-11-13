@@ -1,0 +1,11 @@
+{
+  "_fv": 28,
+  "_type": "tab",
+  "definition": {
+    "name": "Metropia Economy",
+    "icon": {
+      "value": "CUSTOM:PlatiniumCoin"
+    },
+    "showSearch": false
+  }
+}

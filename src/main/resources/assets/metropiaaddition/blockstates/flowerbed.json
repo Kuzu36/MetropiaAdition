@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "metropiaaddition:block/flowerbed"
+    },
+    "powered=true": {
+      "model": "metropiaaddition:block/flowerbed_down"
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "metropiaaddition:blocks/rejeted_mushroom",
+    "particle": "metropiaaddition:blocks/rejeted_mushroom"
+  }
+}

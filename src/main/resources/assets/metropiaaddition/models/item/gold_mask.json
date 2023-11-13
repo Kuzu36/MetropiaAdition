@@ -1,0 +1,8 @@
+{
+  "parent": "metropiaaddition:custom/goldmask",
+  "textures": {
+    "0": "metropiaaddition:blocks/goldmasktexture",
+    "missing": "metropiaaddition:blocks/",
+    "particle": "metropiaaddition:items/goldmasktexture"
+  }
+}

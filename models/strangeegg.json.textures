@@ -1,0 +1,15 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "sniffer_egg_not_cracked_west",
+        "1": "sniffer_egg_not_cracked_top_2",
+        "2": "sniffer_egg_not_cracked_east",
+        "3": "sniffer_egg_not_cracked_north",
+        "4": "sniffer_egg_not_cracked_south",
+        "5": "sniffer_egg_not_cracked_bottom"
+      },
+      "name": "default"
+    }
+  }
+}

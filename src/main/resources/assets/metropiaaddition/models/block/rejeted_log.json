@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "metropiaaddition:blocks/bottom_rejeted_log",
+    "up": "metropiaaddition:blocks/bottom_rejeted_log",
+    "north": "metropiaaddition:blocks/side_rejeted_log",
+    "east": "metropiaaddition:blocks/side_rejeted_log",
+    "south": "metropiaaddition:blocks/side_rejeted_log",
+    "west": "metropiaaddition:blocks/side_rejeted_log",
+    "particle": "metropiaaddition:blocks/bottom_rejeted_log"
+  }
+}

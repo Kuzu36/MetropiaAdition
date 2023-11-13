@@ -1,0 +1,13 @@
+{
+  "parent": "metropiaaddition:custom/strangeegg",
+  "textures": {
+    "all": "metropiaaddition:blocks/sniffer_egg_not_cracked_north",
+    "particle": "metropiaaddition:blocks/sniffer_egg_not_cracked_north",
+    "0": "metropiaaddition:blocks/sniffer_egg_not_cracked_west",
+    "1": "metropiaaddition:blocks/sniffer_egg_not_cracked_top_2",
+    "2": "metropiaaddition:blocks/sniffer_egg_not_cracked_east",
+    "3": "metropiaaddition:blocks/sniffer_egg_not_cracked_north",
+    "4": "metropiaaddition:blocks/sniffer_egg_not_cracked_south",
+    "5": "metropiaaddition:blocks/sniffer_egg_not_cracked_bottom"
+  }
+}

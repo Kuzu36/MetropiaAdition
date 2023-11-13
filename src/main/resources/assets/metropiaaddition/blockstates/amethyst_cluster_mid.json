@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "metropiaaddition:block/amethyst_cluster_mid"
+    },
+    "facing=east": {
+      "model": "metropiaaddition:block/amethyst_cluster_mid",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "metropiaaddition:block/amethyst_cluster_mid",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "metropiaaddition:block/amethyst_cluster_mid",
+      "y": 270
+    }
+  }
+}

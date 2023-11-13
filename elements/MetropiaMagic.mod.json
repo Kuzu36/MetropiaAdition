@@ -1,0 +1,11 @@
+{
+  "_fv": 28,
+  "_type": "tab",
+  "definition": {
+    "name": "Metropia Magic",
+    "icon": {
+      "value": "CUSTOM:MagicPowder"
+    },
+    "showSearch": false
+  }
+}
